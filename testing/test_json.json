@@ -1,0 +1,16 @@
+{
+    "Ammonia": ["Nitrogen", "Hydrogen"],
+    "Ammonium Nitrate": ["Ammonia", "Nitric Acid"],
+    "Ethanol": ["Sugar", "Yeast"],
+    "Hydrochloric Acid": ["Hydrogen", "Chlorine"],
+    "Nitric Acid": ["Nitrogen Dioxide", "Water"],
+    "Nitric Oxide": ["Nitrogen", "Oxygen"],
+    "Nitrogen Dioxide": ["Nitric Oxide", "Oxygen"],
+    "Potassium Chloride": ["Potassium", "Chlorine"],
+    "Potassium Nitrate": ["Ammonium Nitrate", "Potassium Chloride"],
+    "Sodium Hydroxide": ["Sodium Chloride", "Water"],
+    "Sodium Chloride": ["Sodium", "Chlorine"],
+    "Water": ["Hydrogen", "Oxygen"]
+    
+  }
+  

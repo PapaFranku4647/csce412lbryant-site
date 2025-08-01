@@ -1,0 +1,436 @@
+
+
+
+:root {
+    --element-bg: #ffffff;
+    --hover-scale: 1.05;
+    --hover-shadow: 2px 2px 12px rgba(0, 0, 0, 0.15);
+    --element-bg-hover: #f0f0f0;
+    --hover-shadow-deep: 3px 3px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* General styles */
+body {
+    user-select: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f6f8fa;
+    padding: 20px;
+    text-align: center;
+}
+
+.header {
+    background-color: var(--element-bg);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+
+.spacer.legend-container {
+    position: relative; /* This will be the reference point for absolutely positioned child elements */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.legend-item {
+    width: 20px;
+    height: 20px;
+    border-radius: 15px;
+    margin-bottom: 5px;
+    position: absolute; /* This takes the element out of the flow, so it won't affect other elements */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centering */
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.legend-container > span {
+    position: absolute;
+    top: 75%; /* Adjust as needed */
+    white-space: nowrap; /* Prevents the text from wrapping */
+    font-size: 14px;
+}
+
+/* Alkali Metals */
+.legend-item.alkali-metal { 
+    background-color: #ffcccc;
+}
+.spacer.legend-container > span.alkali-metal {
+    color: #ce4545; /* Making text color slightly darker for visibility */
+}
+
+/* Alkaline Earth Metals */
+.legend-item.alkaline-earth { 
+    background-color: #ffe5cc;
+}
+.spacer.legend-container > span.alkaline-earth {
+    color: #ce8050; /* Making text color slightly darker for visibility */
+}
+
+/* Transition Metals */
+.legend-item.transition-metal { 
+    background-color: #fff5cc;
+}
+.spacer.legend-container > span.transition-metal {
+    color: #cba65a; /* Making text color slightly darker for visibility */
+}
+
+/* Other Metals */
+.legend-item.other-metal { 
+    background-color: #e5ffcc;
+}
+.spacer.legend-container > span.other-metal {
+    color: #73bb56; /* Making text color slightly darker for visibility */
+}
+
+/* Metalloids */
+.legend-item.metalloid { 
+    background-color: #cce5ff;
+}
+.spacer.legend-container > span.metalloid {
+    color: #4f6bb0; /* Making text color slightly darker for visibility */
+}
+
+/* Nonmetals */
+.legend-item.nonmetal { 
+    background-color: #e5ccff;
+}
+.spacer.legend-container > span.nonmetal {
+    color: #7657c3; /* Making text color slightly darker for visibility */
+}
+
+/* Noble Gases */
+.legend-item.noble-gas { 
+    background-color: #ffccf5;
+}
+.spacer.legend-container > span.noble-gas {
+    color: #d460c3; /* Making text color slightly darker for visibility */
+}
+
+/* Lanthanides */
+.legend-item.lanthanide { 
+    background-color: #a3c2fa;  /* A darker shade of blue */
+}
+.spacer.legend-container > span.lanthanide {
+    color: #4371c7; /* Making text color slightly darker for visibility */
+}
+
+/* Actinides */
+.legend-item.actinide { 
+    background-color: #ccffcc;  /* A darker blue shade, referencing the transition metals */
+}
+.spacer.legend-container > span.actinide {
+    color: #57c457; /* Making text color slightly darker for visibility */
+}
+
+.legend-item.unknown {
+    background-color: #ffffff
+}
+.spacer.legend-container > span.unknown {
+    color: #7a7a7a; /* Making text color slightly darker for visibility */
+}
+
+.legend-item.active-legend {
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.3);
+}
+
+.active-legend {
+    opacity: 1;
+    box-shadow: var(--hover-shadow-deep);
+}
+
+.legend-item.faded-legend {
+    opacity: 0.5;
+}
+.unselected-legend-text {
+    opacity: 0.5;
+    color: rgba(0, 0, 0, 0.3); /* Adjust this value to your desired "faded" text color */
+}
+
+
+#selectedElement {
+    margin-bottom: 20px;
+}
+
+#selectedElement a {
+    visibility: hidden;
+}
+
+#selectedElement #dash {
+    visibility: hidden;
+}
+
+/* Table and element styles */
+.table {
+    display: grid;
+    grid-template-columns: repeat(18, 1fr);
+    gap: 15px;
+}
+.vertical-spacer {
+    grid-column: span 18; /* span the full width of the table */
+    height: calc(50% - 7.5px); /* half the height of an element box minus half the gap */
+    background-color: transparent; /* ensure it's transparent */
+}
+
+.element,
+.spacer {
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    transition: all 0.3s ease;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.element.lanthanide { 
+    background-color: #b0c8e8;
+}
+
+.element.lanthanide:hover { 
+    background-color: #8fa9d4; 
+}
+
+.element.actinide { 
+    background-color: #ccffcc;
+}
+
+.element.actinide:hover { 
+    background-color: #aaddaa;
+}
+
+.element {
+    background-color: var(--element-bg);
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.element:hover {
+    transform: scale(var(--hover-scale));
+    box-shadow: var(--hover-shadow-deep);
+    background-color: var(--element-bg-hover);
+}
+
+.active {
+    transform: scale(1.1);
+}
+
+.faded {
+    opacity: 0.3;
+}
+
+.spacer {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+
+
+/* Group-specific colors with hover states */
+.element.alkali-metal { 
+    background-color: #ffcccc;
+}
+
+.element.alkali-metal:hover { 
+    background-color: #ffaaaa; 
+}
+
+.element.alkaline-earth { 
+    background-color: #ffe5cc; 
+}
+
+.element.alkaline-earth:hover { 
+    background-color: #ffcf9f;
+}
+
+.element.transition-metal { 
+    background-color: #fff5cc;
+}
+
+.element.transition-metal:hover { 
+    background-color: #ffefa0;
+}
+
+.element.other-metal { 
+    background-color: #e5ffcc;
+}
+
+.element.other-metal:hover { 
+    background-color: #d5ffaa;
+}
+
+.element.metalloid { 
+    background-color: #cce5ff;
+}
+
+.element.metalloid:hover { 
+    background-color: #aaccff;
+}
+
+.element.nonmetal { 
+    background-color: #e5ccff;
+}
+
+.element.nonmetal:hover { 
+    background-color: #d3aaff;
+}
+
+.element.noble-gas { 
+    background-color: #ffccf5; /* Corrected to light gray */
+}
+
+.element.noble-gas:hover { 
+    background-color: #ff9fed;
+}
+
+
+
+
+
+.arrow
+{
+  position: relative;
+  bottom: -2rem;
+  left: 50%;
+  margin-left:-25px;
+  width: 50px;
+  height: 50px;
+
+  /**
+   * Dark Arrow Down
+   */
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgaGVpZ2h0PSI1MTIiIGlkPSJzdmcyIiB2ZXJzaW9uPSIxLjEiIHdpZHRoPSI1MTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6Y2M9Imh0dHA6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL25zIyIgeG1sbnM6ZGM9Imh0dHA6Ly9wdXJsLm9yZy9kYy9lbGVtZW50cy8xLjEvIiB4bWxuczppbmtzY2FwZT0iaHR0cDovL3d3dy5pbmtzY2FwZS5vcmcvbmFtZXNwYWNlcy9pbmtzY2FwZSIgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIiB4bWxuczpzb2RpcG9kaT0iaHR0cDovL3NvZGlwb2RpLnNvdXJjZWZvcmdlLm5ldC9EVEQvc29kaXBvZGktMC5kdGQiIHhtbG5zOnN2Zz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxkZWZzIGlkPSJkZWZzNCIvPjxnIGlkPSJsYXllcjEiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAsLTU0MC4zNjIyKSI+PHBhdGggZD0ibSAxMjcuNDA2MjUsNjU3Ljc4MTI1IGMgLTQuOTg1MywwLjA3ODQgLTkuOTEwNzcsMi4xNjMwOCAtMTMuNDM3NSw1LjY4NzUgbCAtNTUsNTUgYyAtMy42MDA1NjUsMy41OTkyNyAtNS42OTY4ODMsOC42NTg5NSAtNS42OTY4ODMsMTMuNzUgMCw1LjA5MTA1IDIuMDk2MzE4LDEwLjE1MDczIDUuNjk2ODgzLDEzLjc1IEwgMjQyLjI1LDkyOS4yNSBjIDMuNTk5MjcsMy42MDA1NiA4LjY1ODk1LDUuNjk2ODggMTMuNzUsNS42OTY4OCA1LjA5MTA1LDAgMTAuMTUwNzMsLTIuMDk2MzIgMTMuNzUsLTUuNjk2ODggTCA0NTMuMDMxMjUsNzQ1Ljk2ODc1IGMgMy42MDA1NiwtMy41OTkyNyA1LjY5Njg4LC04LjY1ODk1IDUuNjk2ODgsLTEzLjc1IDAsLTUuMDkxMDUgLTIuMDk2MzIsLTEwLjE1MDczIC01LjY5Njg4LC0xMy43NSBsIC01NSwtNTUgYyAtMy41OTgxNSwtMy41OTEyNyAtOC42NTA2OCwtNS42ODEyNyAtMTMuNzM0MzgsLTUuNjgxMjcgLTUuMDgzNjksMCAtMTAuMTM2MjIsMi4wOSAtMTMuNzM0MzcsNS42ODEyNyBMIDI1Niw3NzguMDMxMjUgMTQxLjQzNzUsNjYzLjQ2ODc1IGMgLTMuNjY2NzgsLTMuNjY0MjMgLTguODQ4MDEsLTUuNzY0NDIgLTE0LjAzMTI1LC01LjY4NzUgeiIgaWQ9InBhdGgzNzY2LTEiIHN0eWxlPSJmb250LXNpemU6bWVkaXVtO2ZvbnQtc3R5bGU6bm9ybWFsO2ZvbnQtdmFyaWFudDpub3JtYWw7Zm9udC13ZWlnaHQ6bm9ybWFsO2ZvbnQtc3RyZXRjaDpub3JtYWw7dGV4dC1pbmRlbnQ6MDt0ZXh0LWFsaWduOnN0YXJ0O3RleHQtZGVjb3JhdGlvbjpub25lO2xpbmUtaGVpZ2h0Om5vcm1hbDtsZXR0ZXItc3BhY2luZzpub3JtYWw7d29yZC1zcGFjaW5nOm5vcm1hbDt0ZXh0LXRyYW5zZm9ybTpub25lO2RpcmVjdGlvbjpsdHI7YmxvY2stcHJvZ3Jlc3Npb246dGI7d3JpdGluZy1tb2RlOmxyLXRiO3RleHQtYW5jaG9yOnN0YXJ0O2Jhc2VsaW5lLXNoaWZ0OmJhc2VsaW5lO2NvbG9yOiMwMDAwMDA7ZmlsbDojMjIyMjIyO2ZpbGwtb3BhY2l0eToxO2ZpbGwtcnVsZTpub256ZXJvO3N0cm9rZTpub25lO3N0cm9rZS13aWR0aDozOC44ODAwMDEwNzttYXJrZXI6bm9uZTt2aXNpYmlsaXR5OnZpc2libGU7ZGlzcGxheTppbmxpbmU7b3ZlcmZsb3c6dmlzaWJsZTtlbmFibGUtYmFja2dyb3VuZDphY2N1bXVsYXRlO2ZvbnQtZmFtaWx5OlNhbnM7LWlua3NjYXBlLWZvbnQtc3BlY2lmaWNhdGlvbjpTYW5zIi8+PC9nPjwvc3ZnPg==);
+  background-size: contain;
+  visibility: hidden;
+}
+
+.bounce {
+  animation: bounce 2s infinite;
+}
+
+.arrow:hover
+{
+    background-color: rgb(209, 209, 209);
+    border-radius: 7px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-20px);
+  }
+  60% {
+    transform: translateY(-10px);
+  }
+}
+
+
+div[id="textbox holder"]
+{
+    text-align: center;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    height: 135px;
+    width: 40vw;
+    border-radius: 15px;
+    padding: 8px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    margin: 8px;
+    visibility: hidden;
+}
+
+div[id="textbox text"]
+{
+    text-align: center;
+    /* float: right; */
+    display: flex;
+    /* height: 100px; */
+    /* border-radius: 15px; */
+    /* padding: 8px; */
+    /* box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); */
+    /* margin: 8px; */
+}
+
+div[id="textbox sub"]
+{
+    text-align: center;
+    flex-direction: column;
+
+    float: right;
+    clear: right;
+    display: flex;
+    height: 133px;
+    width: 40vw;
+    border-radius: 15px;
+    padding: 8px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    margin: 8px;
+    visibility: hidden;
+
+}
+
+div[id="textbox center"]
+{
+    text-align: center;
+    flex-direction: column;
+
+    float: left;
+    display: flex;
+    height: 300px;
+    width: 430px;
+    border-radius: 15px;
+    padding: 8px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    margin: 8px;
+    visibility: hidden;
+
+}
+
+div[id="textbox atom"]
+{
+    float: left;
+    display: flex;
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+    padding: 8px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    margin: 8px;
+    visibility: hidden;
+
+}
+
+canvas[id="atom canvas"]
+{
+    height: 270px;
+    width: 270px;
+    margin: 15px;
+    /* box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); */
+
+}
+
+
+#textbox-div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  
+  div[id="textbox atom"],
+  div[id="textbox center"] {
+    flex: 0 0 auto;
+  }
+  
+  div[id="textbox holder"],
+  div[id="textbox sub"] {
+    flex: 1 0 40%;
+  }
+  

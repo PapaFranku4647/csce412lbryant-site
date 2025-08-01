@@ -1,0 +1,474 @@
+{
+    "hydrogen": {
+        "text": "Hydrogen, the universe's lightest and most abundant element, primarily exists in stars and is crucial for the universe's structure. On Earth, it's a key component of water and can be used in fuel cells to generate clean energy, merging environmental concerns with technological advancement.",
+        "atomic_number": 1
+    },
+    "helium": {
+        "text": "Helium is a colorless, tasteless, and odorless gas. As the second-lightest element, it's used to cool superconducting magnets in MRI machines. Its low boiling point and non-flammability make it ideal for cooling. It's also popular in balloons as it doesn't support combustion.",
+        "atomic_number": 2
+    },
+    "lithium": {
+        "text": "Lithium is a soft, silvery-white metal and the lightest solid element. Integral in rechargeable batteries for phones, laptops, and electric vehicles, its demand has surged with the tech revolution. It's also used in mental health treatments for bipolar disorder, showcasing its diverse applications.",
+        "atomic_number": 3
+    },
+    "beryllium": {
+        "text": "Beryllium is a hard, grayish metal, vital in the aerospace industry due to its low density and high melting point. However, inhaling its dust or fumes can lead to chronic beryllium disease, an incurable lung condition. It's also used in X-ray windows because it's largely transparent to X-rays.",
+        "atomic_number": 4
+    },
+    "boron": {
+        "text": "Boron is a versatile element found in nature primarily as borax. It's crucial for plant growth and is used in detergents and cosmetics. Additionally, borosilicate glass, known for its resistance to thermal shock, and the superhard material boron nitride demonstrate its broad utility.",
+        "atomic_number": 5
+    },
+    "carbon": {
+        "text": "Carbon, life's fundamental building block, has diverse forms, from diamond to graphite. It's central to photosynthesis in plants and is the backbone of DNA in all organisms. Its versatility extends to industry, forming strong composites used in sports equipment and aerospace applications.",
+        "atomic_number": 6
+    },
+    "nitrogen": {
+        "text": "Nitrogen, a diatomic gas, makes up 78% of Earth's atmosphere. It's essential for the synthesis of amino acids in living organisms. Industrially, it's used in ammonia production for fertilizers. Liquid nitrogen, due to its extremely low temperature, is used in food freezing and cryosurgery.",
+        "atomic_number": 7
+    },
+    "oxygen": {
+        "text": "Oxygen is indispensable for most terrestrial life, playing a pivotal role in cellular respiration. Comprising 21% of Earth's atmosphere, it supports combustion and is the reason our sky is blue. It's also used in medical treatments and steel manufacturing, highlighting its elemental significance.",
+        "atomic_number": 8
+    },
+    "fluorine": {
+        "text": "Fluorine is a pale-yellow, highly reactive gas. It's used in toothpaste and drinking water to prevent dental cavities. The element plays a key role in refrigeration: many refrigerants are fluorocarbons. Its high reactivity means it can produce exceptionally strong chemical bonds, useful in pharmaceuticals.",
+        "atomic_number": 9
+    },
+    "neon": {
+        "text": "Neon, a noble gas, is best known for its vibrant luminescence in neon signs. When electrified, it glows a bright red-orange. Although abundant in the universe, it's rare on Earth. Its applications extend to cryogenic refrigeration, as its liquid form has over 40 times the cooling capacity of liquid helium.",
+        "atomic_number": 10
+    },
+    "sodium": {
+        "text": "Sodium is a soft, silvery-white metal that reacts explosively with water. It's vital for nerve and muscle function in organisms. Sodium chloride, or table salt, is essential for human diet. Industrially, it's used in soap manufacturing and street lights, emphasizing its widespread significance.",
+        "atomic_number": 11
+    },
+    "magnesium": {
+        "text": "Magnesium, a shiny gray solid, plays a pivotal role in over 300 enzyme reactions in the human body. In nature, it's found in minerals like dolomite. Its lightweight and strength make it an ideal ingredient in aircraft materials. Its compounds are also used in firework sparklers due to the bright flame it produces.",
+        "atomic_number": 12
+    },
+    "aluminum": {
+        "text": "Aluminum, known for its low density and resistance to corrosion, is used extensively in aerospace, transportation, and packaging (like cans). It's the most abundant metal in Earth's crust, primarily sourced from bauxite ore. Being a good conductor of electricity, it's also used in power transmission lines.",
+        "atomic_number": 13
+    },
+    "silicon": {
+        "text": "Silicon forms the Earth's crust's backbone, being a major component of rocks and sand. In pure crystalline form, it's pivotal in the electronics industry, making up most semiconductor devices. Additionally, its compounds, silicones, are used in many products, from lubricants to medical implants.",
+        "atomic_number": 14
+    },
+    "phosphorus": {
+        "text": "Phosphorus exists in several forms, with white phosphorus being used in military applications and red phosphorus in matches. It's essential for life, forming part of DNA and ATP. Overuse of phosphorus in agriculture can lead to water pollution, making sustainable usage crucial for environmental health.",
+        "atomic_number": 15
+    },
+    "sulfur": {
+        "text": "Sulfur is a bright yellow crystalline solid, known for its pungent odor when burnt. Essential for life, it's a key component of certain amino acids and vitamins. Industrial applications include the manufacture of sulfuric acid, a pivotal chemical in various processes, from fertilizers to battery production.",
+        "atomic_number": 16
+    },
+    "chlorine": {
+        "text": "Chlorine is a greenish-yellow gas with a pungent smell. Vital in water purification, it kills bacteria in drinking water and swimming pools. It's used in the production of a vast array of products, including PVC. However, it's also a potent irritant and must be handled with appropriate care.",
+        "atomic_number": 17
+    },
+    "argon": {
+        "text": "Argon, a noble gas, makes up about 1% of Earth's atmosphere. Due to its inertness, it's used in light bulbs to protect the filament and in arc welding. It's also used to create an oxygen-free environment for historical document preservation, ensuring they remain intact for future generations.",
+        "atomic_number": 18
+    },
+    "potassium": {
+        "text": "Potassium is a soft, silvery-white metal, essential for the proper functioning of nerve and muscle cells in living organisms. Found in bananas and many other foods, a balanced intake supports heart health. It reacts vigorously with water, producing heat and hydrogen gas, which can ignite.",
+        "atomic_number": 19
+    },
+    "calcium": {
+        "text": "Calcium is a silvery-white metal, vital for building and maintaining bones in living organisms. It also plays a role in muscle function and nerve transmission. In industry, calcium compounds are used in cement and the purification of iron. The metal itself can act as a reducing agent in metallurgy.",
+        "atomic_number": 20
+    },
+    "scandium": {
+        "text": "Scandium is a soft, silvery-white metal. Although scarce, it's a potent grain refiner when alloyed with aluminum, used in aerospace components. While not a major component of any practical materials, its presence in certain compounds can produce a stunning blue color, useful in ceramics and enamels.",
+        "atomic_number": 21
+    },
+    "titanium": {
+        "text": "Titanium is a lustrous white metal known for its strength and corrosion resistance. It's as strong as steel but 45% lighter, making it ideal for aerospace applications. Also, due to its biocompatibility, it's used for medical implants, ensuring they're both durable and non-toxic within the human body.",
+        "atomic_number": 22
+    },
+    "vanadium": {
+        "text": "Vanadium is a soft, silvery-gray metal. In steel production, small amounts enhance steel's strength, toughness, and wear resistance. Additionally, vanadium flow batteries offer promise for large-scale energy storage, which can be pivotal in balancing grids reliant on intermittent renewable energy sources.",
+        "atomic_number": 23
+    },
+    "chromium": {
+        "text": "Chromium is a hard, shiny metal known for its high corrosion resistance, thanks to the oxide layer it forms on its surface. It's pivotal in stainless steel production, ensuring the material remains rust-free. Additionally, its compounds give pigments in paints, inks, and plastics vibrant, long-lasting colors.",
+        "atomic_number": 24
+    },
+    "manganese": {
+        "text": "Manganese, a gray-white metal, is essential in steel production to improve hardness, strength, and resistance to wear. Biologically, it's a trace mineral crucial for bone formation and metabolic processes. Overexposure can be toxic, so while it's vital, its intake and environmental levels need regulation.",
+        "atomic_number": 25
+    },
+    "iron": {
+        "text": "Iron, a lustrous gray metal, is the most used of all metals, crucial in steel production. It's an essential element in hemoglobin, aiding oxygen transport in the blood. Historically, its alloys, like bronze and steel, have played key roles in advancing civilization through tools, weapons, and infrastructure.",
+        "atomic_number": 26
+    },
+    "cobalt": {
+        "text": "Cobalt is a hard, lustrous gray metal. It's essential for producing powerful, rare-earth magnets used in electric vehicles and wind turbines. Its radioisotopes are used in cancer treatment. Biologically, it's found in vitamin B12, crucial for blood formation and neurological function in humans.",
+        "atomic_number": 27
+    },
+    "nickel": {
+        "text": "Nickel is a silvery-white, corrosion-resistant metal. It's used extensively in stainless steel production. The metal's ability to withstand extreme temperatures makes it crucial in jet engines. Additionally, its compounds can produce green colors in glass and ceramics, adding aesthetic value to artifacts.",
+        "atomic_number": 28
+    },
+    "copper": {
+        "text": "Copper is a reddish-brown metal, known for its high thermal and electrical conductivity. Used in wiring, plumbing, and coinage, its antimicrobial properties also make it useful in medical settings. Alloyed with tin, it produces bronze, an essential material in ancient tools and artifacts.",
+        "atomic_number": 29
+    },
+    "zinc": {
+        "text": "Zinc is a bluish-silver metal, crucial for human health, playing a role in wound healing, immune function, and DNA synthesis. Industrially, it's used in galvanizing steel to prevent rusting. In the environment, it's essential for plant and microbial growth, showcasing its diverse biological importance.",
+        "atomic_number": 30
+    },
+    "gallium": {
+        "text": "Gallium is a soft, silvery-white metal that can melt in one's hand due to its low melting point. It's used in semiconductors and LEDs because of its electronic properties. Its ability to wet glass and porcelain allows its use in high-temperature thermometers, replacing hazardous mercury.",
+        "atomic_number": 31
+    },
+    "germanium": {
+        "text": "Germanium is a grayish-white metalloid with semiconductor properties. Initially used in transistors, its primary use now is in fiber-optic systems and infrared optics. Naturally occurring in small amounts in the Earth's crust, it's also found in some coal and mineral ores.",
+        "atomic_number": 32
+    },
+    "arsenic": {
+        "text": "Arsenic is a gray metalloid, historically known for its use as a poison. However, it's also used in lead-acid car batteries and semiconductors. It can contaminate groundwater, leading to health issues. In small doses, it's used in some medical applications, emphasizing its dual beneficial and hazardous nature.",
+        "atomic_number": 33
+    },
+    "selenium": {
+        "text": "Selenium is a nonmetal essential in trace amounts for cellular function in many organisms. Overexposure can be toxic. In industry, it's used in glassmaking to decolorize glass and make red and yellow pigments. Its photoconductivity makes it valuable in photocells and photocopiers.",
+        "atomic_number": 34
+    },
+    "bromine": {
+        "text": "Bromine is a dark-red liquid, the only nonmetallic element that's liquid at room temperature. Used in flame retardants and certain types of medication, it's also found in some carbonated drinks. While it has beneficial applications, it's toxic and causes burns upon contact with skin.",
+        "atomic_number": 35
+    },
+    "krypton": {
+        "text": "Krypton is a colorless, tasteless noble gas, famous due to its fictional association with Superman's home planet. In reality, it's used in high-powered flash lamps and certain photographic flashes. While it has few practical uses, its stable isotopes are beneficial in defining the length of a meter.",
+        "atomic_number": 36
+    },
+    "rubidium": {
+        "text": "Rubidium is a soft, silvery-white metal that reacts violently with water. While not widely used in industry, its compounds can give fireworks a violet color. In research, its isotopes are used in atomic clocks, ensuring precise time measurement, and in certain types of quantum computing experiments.",
+        "atomic_number": 37
+    },
+    "strontium": {
+        "text": "Strontium is a soft, silver-yellow metal. Naturally radioactive strontium-90, a by-product of nuclear explosions, can pose health risks. However, stable forms are used in glow-in-the-dark paints and in medical applications to improve bone health, showcasing its broad range of influences.",
+        "atomic_number": 38
+    },
+    "yttrium": {
+        "text": "Yttrium is a silver-metallic transition metal, often found with rare earth elements. It's used in making red phosphors for television tube displays and LEDs. Additionally, its compounds are vital in certain cancer treatments, and yttrium-stabilized zirconia is used as a solid oxide fuel cell.",
+        "atomic_number": 39
+    },
+    "zirconium": {
+        "text": "Zirconium is a lustrous gray-white metal, known for its strong resistance to corrosion. It's crucial in nuclear reactors due to its low neutron absorption. Outside the nuclear industry, it's used in the aerospace sector and in making ceramic knives, highlighting its adaptability in various domains.",
+        "atomic_number": 40
+    },
+    "niobium": {
+        "text": "Niobium is a soft, gray, ductile transition metal, primarily used in alloys to strengthen steel. It's also crucial in superalloys for jet engines and rockets. Its superconducting properties make it valuable in particle accelerators and MRI scanners, advancing both scientific research and medical diagnostics.",
+        "atomic_number": 41
+    },
+    "molybdenum": {
+        "text": "Molybdenum is a silvery-white metal with one of the highest melting points of any element. It's vital for plant nutrition and is used to strengthen and harden steel. Also, its role in various enzymes is essential for life, aiding in the breakdown of harmful sulfites and prevention of toxins.",
+        "atomic_number": 42
+    },
+    "technetium": {
+        "text": "Technetium is a silvery-gray metal and the lightest element with no stable isotopes. While rare and typically artificial, it's used in medical imaging. Its radioisotopes help in identifying tumors and studying the heart's condition, proving that even rare elements can have critical modern applications.",
+        "atomic_number": 43
+    },
+    "ruthenium": {
+        "text": "Ruthenium is a hard, white transition metal, often used in alloys to harden platinum and palladium for jewelry. Its compounds show promise in some types of cancer treatments. Additionally, its potential role in advanced electronics, due to its unique oxidation states, is an active area of research.",
+        "atomic_number": 44
+    },
+    "rhodium": {
+        "text": "Rhodium is a silvery-white metal that's corrosion-resistant and reflects light very effectively. It's used in mirrors and searchlights and to plate jewelry and the more visible parts of vehicles. It's also crucial in catalytic converters, reducing harmful emissions from vehicles, aiding environmental health.",
+        "atomic_number": 45
+    },
+    "palladium": {
+        "text": "Palladium is a lustrous silver-white metal, known for its use in catalytic converters to reduce harmful car emissions. It's also used in dental fillings and in making certain types of jewelry. As a catalyst, it plays a role in many chemical reactions, driving industrial and research processes.",
+        "atomic_number": 46
+    },
+    "silver": {
+        "text": "Silver, a lustrous white metal, has the highest electrical and thermal conductivity of any element. Historically valued as a precious metal, it's used in coins, jewelry, and tableware. Its antimicrobial properties find applications in medicine, while its conductivity makes it crucial in electronics.",
+        "atomic_number": 47
+    },
+    "cadmium": {
+        "text": "Cadmium is a soft, bluish-white metal known for its use in rechargeable batteries, like NiCd batteries. However, it's toxic and can cause environmental and health issues. Its compounds are used in pigments, though their use is decreasing due to environmental concerns. Handling requires caution.",
+        "atomic_number": 48
+    },
+    "indium": {
+        "text": "Indium is a soft, silvery-white metal used in LCD screens due to its conductivity. It forms a vital part of the transparent conductive layer in touch screens, TVs, and solar panels. While not abundant, its unique properties make modern electronic convenience and renewable energy innovations possible.",
+        "atomic_number": 49
+    },
+    "tin": {
+        "text": "Tin is a soft, silvery-white metal that has been used since ancient times. Alloyed with copper, it produces bronze. It's primarily used today in solder for electronics. While non-toxic in its metallic form, its organic compounds can be harmful, emphasizing the importance of its safe disposal.",
+        "atomic_number": 50
+    },
+    "antimony": {
+        "text": "Antimony is a lustrous gray metalloid. Historically used in cosmetics, its primary modern use is as an alloying material for lead and tin. It improves battery life and makes cables more durable. However, antimony compounds can be toxic and are used in some flame retardants and paints.",
+        "atomic_number": 51
+    },
+    "tellurium": {
+        "text": "Tellurium is a brittle, mildly toxic metalloid with a silvery-white color. It's used in the manufacture of photovoltaic solar cells and as an alloying agent in metals. Additionally, it has applications in rewritable optical discs. When alloyed with other metals, it improves their machinability.",
+        "atomic_number": 52
+    },
+    "iodine": {
+        "text": "Iodine is a dark gray, lustrous halogen known for its antiseptic properties. Essential for thyroid function, it's often added to salt for nutritional reasons. Additionally, it's used in photography and as a contrast medium in medical radiology, aiding in visualizing internal body structures.",
+        "atomic_number": 53
+    },
+    "xenon": {
+        "text": "Xenon is a colorless, dense noble gas known for its emission of light when electrified. It's used in flash lamps, ion propulsion systems, and as a general anesthetic in medical applications. Due to its rare presence in Earth's atmosphere, its applications are limited by its availability.",
+        "atomic_number": 54
+    },
+    "caesium": {
+        "text": "Caesium is a soft, gold-colored alkali metal. Known for its application in atomic clocks, which maintain time with unparalleled accuracy. Additionally, it's utilized in medical isotope production and as a catalyst in the hydrogenation of organic compounds, making processes more efficient.",
+        "atomic_number": 55
+    },
+    "barium": {
+        "text": "Barium is a soft, silvery alkaline earth metal. It's often used in drilling fluids in the oil industry, and in various glassmaking processes. In medical diagnostics, a 'barium meal' helps visualize the stomach under X-ray, showcasing the element's adaptability in various practical applications.",
+        "atomic_number": 56
+    },
+    "lanthanum": {
+        "text": "Lanthanum is a silvery-white metal, the first in the lanthanide series. It's essential in the making of hybrid car batteries and special optical glasses. Its compounds have various applications in catalysis and water treatment, demonstrating its wide-reaching industrial significance.",
+        "atomic_number": 57
+    },
+    "cerium": {
+        "text": "Cerium is a silvery-white metal, known primarily for its role in flint lighters due to its pyrophoric properties. Additionally, it's used in the making of UV stabilizers and as a polishing compound for glass. Its compounds have applications in catalysis and the manufacture of colored glasses.",
+        "atomic_number": 58
+    },
+    "praseodymium": {
+        "text": "Praseodymium is a soft, silvery, malleable metal. It's used in aircraft engines and to create high-strength metals used in turbines. Its salts give glasses and ceramics a yellow color. Additionally, it's a component in special ferromagnetic materials, which have unique magnetic properties.",
+        "atomic_number": 59
+    },
+    "neodymium": {
+        "text": "Neodymium is a silvery metal, widely known for its role in strong permanent magnets used in headphones, microphones, and computer hard drives. Its colorful salts are used to produce glass and ceramics that filter light or change its color, adding aesthetic and functional values to products.",
+        "atomic_number": 60
+    },
+    "promethium": {
+        "text": "Promethium is a radioactive metal with no stable isotopes. It's used in nuclear batteries and luminescent paint. Emitting beta particles, its radioluminescence is valuable for watches and instruments requiring backlight without external power, adding versatility in low-light applications.",
+        "atomic_number": 61
+    },
+    "samarium": {
+        "text": "Samarium is a hard, silvery metal with applications in strong permanent magnets and nuclear reactors. It's a neutron absorber and aids in the control rods of reactors. Also, its compounds are catalysts in organic chemistry, emphasizing its role in scientific and industrial developments.",
+        "atomic_number": 62
+    },
+    "europium": {
+        "text": "Europium is a soft metal with distinct applications in the phosphorescent compounds used in CRTs and fluorescent lamps. As a dopant, it enhances the brightness of red and blue phosphors, making screens more vibrant. It's a rare earth element with specific high-tech uses.",
+        "atomic_number": 63
+    },
+    "gadolinium": {
+        "text": "Gadolinium has unique magnetic properties, making it vital for MRIs. When injected, it acts as a contrast agent, improving scan clarity. It's also in data storage materials and high-temperature refractory materials. Its compounds enhance the quality of various medical and electronic devices.",
+        "atomic_number": 64
+    },
+    "terbium": {
+        "text": "Terbium, a rare earth metal, is in semiconductors and electronic devices. Its green phosphorescence is significant in TV screens and fluorescent lamps. It's also used in fuel cells operating at high temperatures. Thus, it plays a vital role in modern technology and energy solutions.",
+        "atomic_number": 65
+    },
+    "dysprosium": {
+        "text": "Dysprosium's high magnetic strength makes it essential in electric car motors and wind turbine generators. A heavy rare-earth element, it resists demagnetization at high temperatures, enhancing device efficiency. Also, it's used in lasers and commercial lighting applications.",
+        "atomic_number": 66
+    },
+    "holmium": {
+        "text": "Holmium is a part of the lanthanide series. With the highest magnetic strength, it's used in strong permanent magnets. Also valuable in medical and research lasers due to its specific light-absorbing properties. It showcases the importance of rare earths in modern technology.",
+        "atomic_number": 67
+    },
+    "erbium": {
+        "text": "Erbium's pink-colored salts are used in glasses and ceramics. It's also vital in the telecom industry, amplifying light in fiber-optic cables. Its lasers have dermatological and dental applications. A versatile element, it plays a significant role in cosmetic and communication fields.",
+        "atomic_number": 68
+    },
+    "thulium": {
+        "text": "Thulium is used in portable X-ray machines and solid-state lasers effective in surgical procedures and industrial applications. It's the second least abundant of the rare earths but has vital high-tech applications, demonstrating the varied utility of the lanthanide series.",
+        "atomic_number": 69
+    },
+    "ytterbium": {
+        "text": "Ytterbium has applications in stress and temperature monitoring in the aerospace industry. Its atomic clocks provide outstanding long-term stability. Also used in lasers and as a dopant in stainless steel, it epitomizes the fusion of elemental properties and modern technology.",
+        "atomic_number": 70
+    },
+    "lutetium": {
+        "text": "Lutetium is a silvery-white metal, the last element in the lanthanide series. Used in petroleum cracking catalysts, it plays a part in the petroleum industry. Additionally, its radioactive isotope is significant in cancer treatments, showcasing its dual industrial and medical roles.",
+        "atomic_number": 71
+    },
+    "hafnium": {
+        "text": "Hafnium, a lustrous silver metal, is primarily utilized in control rods for nuclear reactors due to its excellent ability to absorb neutrons. It's also significant in microelectronics, featuring in gate insulators in modern semiconductor devices, making it pivotal in modern tech advancements.",
+        "atomic_number": 72
+    },
+    "tantalum": {
+        "text": "Tantalum is a dense, ductile metal primarily used in electronics for its ability to store electricity in capacitors. It's vital in aerospace and medical equipment due to its high melting point and resistance to corrosion. This element underpins many contemporary tech applications.",
+        "atomic_number": 73
+    },
+    "tungsten": {
+        "text": "Known for the highest melting point of any metal, tungsten is crucial in producing light bulb filaments. Its hardness and density make it ideal for missiles and rockets. Furthermore, its alloy with steel enhances strength, showcasing its role in various industries.",
+        "atomic_number": 74
+    },
+    "rhenium": {
+        "text": "Rhenium, one of the rarest elements in the Earth's crust, sees usage in high-temperature turbine engines and as catalysts in petroleum refining. Its alloys can withstand extreme conditions, making it pivotal in the aerospace industry and enhancing jet engine efficiency.",
+        "atomic_number": 75
+    },
+    "osmium": {
+        "text": "Osmium, with an impressive density, is primarily used in specialized alloys and as a catalyst in chemical reactions. Its alloys are employed in fountain pen tips and electrical contacts. The metal's resilience and corrosion-resistance make it valuable in various applications.",
+        "atomic_number": 76
+    },
+    "iridium": {
+        "text": "Extremely corrosion-resistant, iridium's major use is in hardening platinum by forming alloys. Crucial in spark plugs and in equipment that demands high durability. Also, it played a role in the discovery of a meteor impact that possibly led to the dinosaur extinction.",
+        "atomic_number": 77
+    },
+    "platinum": {
+        "text": "Platinum's resistance to wear and tarnish makes it the prime choice for jewelry and catalytic converters. Additionally, it's significant in electronics and chemotherapy drugs. Its applications range from luxury items to life-saving treatments, highlighting its versatile importance.",
+        "atomic_number": 78
+    },
+    "gold": {
+        "text": "Gold, a symbol of wealth for millennia, is highly malleable and resistant to tarnish. Beyond jewelry, it's used in electronics due to conductivity. Its medical and monetary applications, from treating arthritis to being a global currency standard, show its diverse significance.",
+        "atomic_number": 79
+    },
+    "mercury": {
+        "text": "Mercury is a liquid metal at room temperature, used in thermometers, barometers, and other instruments. While its use has declined due to toxicity, it's still vital in some industrial applications. It's a unique element with historical importance in various scientific advancements.",
+        "atomic_number": 80
+    },
+    "thallium": {
+        "text": "Thallium is a soft, malleable metal with applications in electronics and optical lenses. Historically used in rodent poisons and insecticides, its usage has declined due to toxicity. Yet, its isotopes are valuable in specific medical imaging tests, marking its niche significance.",
+        "atomic_number": 81
+    },
+    "lead": {
+        "text": "Lead's heavy, malleable nature has established its historical use in pipes, paint, and radiation shielding. Though its usage has diminished due to health concerns, it remains essential in batteries, bullets, and certain electronic applications, cementing its varied industrial role.",
+        "atomic_number": 82
+    },
+    "bismuth": {
+        "text": "Bismuth is known for its iridescent hue and is employed in cosmetics, pigments, and pharmaceuticals, especially Pepto-Bismol. Being a safer alternative to lead in some applications, such as fishing sinkers, it's gaining popularity, demonstrating its evolving industrial role.",
+        "atomic_number": 83
+    },
+    "polonium": {
+        "text": "Polonium, discovered by Marie Curie, is highly radioactive and has few applications. Used in anti-static brushes and, historically, in atomic bombs, its scarcity and radioactivity make its use limited and specialized. Its discovery played a role in the understanding of radioactivity.",
+        "atomic_number": 84
+    },
+    "astatine": {
+        "text": "Astatine is a highly radioactive element with no significant commercial application. It's so rare in nature that it's usually produced synthetically. While it has potential uses in targeted alpha-particle cancer therapy, its scarcity and short half-life make research challenging.",
+        "atomic_number": 85
+    },
+    "radon": {
+        "text": "Radon is a colorless, odorless, and radioactive noble gas emerging from the decay of radium. It's associated with lung cancer due to its radioactive decay in lungs upon inhalation. Detection and mitigation in homes are essential, emphasizing its health implications.",
+        "atomic_number": 86
+    },
+    "francium": {
+        "text": "Francium is a highly radioactive metal with a very short half-life, making it rare and limiting its practical applications. Mostly used for research purposes, it plays a role in advanced atomic studies. Its fleeting existence has made it a subject of intrigue in the scientific community.",
+        "atomic_number": 87
+    },
+    "radium": {
+        "text": "Radium, discovered by the Curies, was historically used in luminescent paint. Highly radioactive, its use has declined due to health risks. Still, its early applications in cancer treatments paved the way for the development of modern radiotherapy methods.",
+        "atomic_number": 88
+    },
+    "actinium": {
+        "text": "Actinium, a silvery metal, glows faintly in the dark due to its radioactivity. It's used as a neutron source and in radiation therapy for cancer. As the namesake for the actinide series, it plays an essential role in the classification of elements and in advanced research.",
+        "atomic_number": 89
+    },
+    "thorium": {
+        "text": "Thorium is a naturally-occurring radioactive metal. It's been considered as an alternative nuclear fuel in reactors due to its abundance compared to uranium. Beyond energy, it's used in portable X-ray devices and in ultraviolet (UV) equipment, indicating its diverse applications.",
+        "atomic_number": 90
+    },
+    "protactinium": {
+        "text": "Protactinium is a dense, silvery metal with high radioactivity. Mostly of scientific interest, it's present in minute amounts in uranium ores. Its most stable isotope has potential as a radiological dating tool for certain marine sediments, demonstrating its niche scientific relevance.",
+        "atomic_number": 91
+    },
+    "uranium": {
+        "text": "Uranium, a heavy radioactive element, is the primary fuel for nuclear reactors. While it's known for atomic bombs, its peaceful applications in energy generation are widespread. Its decay provides the heat for Earth's mantle, emphasizing its geological significance too.",
+        "atomic_number": 92
+    },
+    "neptunium": {
+        "text": "Neptunium, a radioactive actinide metal, is found in spent nuclear fuel. While it has few commercial uses, its production and behavior are of scientific interest. As the first transuranic element discovered, it marked a milestone in the study of synthetic elements.",
+        "atomic_number": 93
+    },
+    "plutonium": {
+        "text": "Plutonium is a radioactive metal known for its role in nuclear weapons and power. It powers space missions via thermoelectric generators. As a man-made element with significant historical implications, its management is crucial due to long-lived radioactivity and potential hazards.",
+        "atomic_number": 94
+    },
+    "americium": {
+        "text": "Americium is a silvery metal used in smoke detectors as a source of ionizing radiation. While it's mainly a product of plutonium decay in nuclear reactors, its applications extend to radioisotope thermoelectric generators, showcasing its utility in safety and space exploration.",
+        "atomic_number": 95
+    },
+    "curium": {
+        "text": "Curium, named after the Curies, is a hard, dense, radioactive metal used in space missions as a heat source. While not naturally occurring, its production and properties are of scientific value. Its role in space exploration emphasizes the importance of man-made elements.",
+        "atomic_number": 96
+    },
+    "berkelium": {
+        "text": "Berkelium is a synthetic, radioactive metal, named after Berkeley, California. Lacking significant commercial applications, its primary interest lies in scientific research. As a later actinide, its study provides insights into the properties and behaviors of heavy elements.",
+        "atomic_number": 97
+    },
+    "californium": {
+        "text": "Californium is a powerful neutron emitter, used in neutron radiography and as a neutron source in reactors. Though synthetically produced, its applications in metal detection and cancer treatment research underline the innovative uses of man-made, radioactive elements.",
+        "atomic_number": 98
+    },
+    "einsteinium": {
+        "text": "Einsteinium, named after Albert Einstein, is a synthetic, highly radioactive metal with no significant commercial use. Its production and properties mainly interest researchers. As one of the first elements discovered via hydrogen bomb explosion, it has historical and scientific relevance.",
+        "atomic_number": 99
+    },
+    "fermium": {
+        "text": "Fermium, named in honor of Enrico Fermi, is a synthetic, highly radioactive element. Produced in minute amounts, its primary relevance is in scientific research. Its discovery post nuclear detonation has made it significant in the understanding of heavy, man-made elements.",
+        "atomic_number": 100
+    },
+    "mendelevium": {
+        "text": "Mendelevium, honoring Dmitri Mendeleev, has no commercial applications and is purely of scientific interest. As a synthetic element, its study has provided insights into the properties of superheavy atoms and has expanded our understanding of the periodic table's boundaries.",
+        "atomic_number": 101
+    },
+    "nobelium": {
+        "text": "Nobelium, named after Alfred Nobel, is a synthetic, radioactive element with no significant applications outside of scientific research. Its study aids in understanding the properties of heavy elements, emphasizing the persistent human endeavor to expand knowledge boundaries.",
+        "atomic_number": 102
+    },
+    "lawrencium": {
+        "text": "Lawrencium, named after Ernest O. Lawrence, is a synthetic radioactive element with no commercial applications. As the final element in the actinide series, its study closes a chapter in element research and deepens our understanding of heavy element behaviors and properties.",
+        "atomic_number": 103
+    },
+    "rutherfordium": {
+        "text": "Rutherfordium, named after Lord Rutherford, has no known use outside of scientific research due to its extreme radioactivity and short half-life. As a 4th-period transition metal, its discovery was significant in the periodic table expansion and in understanding synthetic elements.",
+        "atomic_number": 104
+    },
+    "dubnium": {
+        "text": "Dubnium, named for the Russian town of Dubna, is a synthetic, highly radioactive element with no commercial uses. As with other superheavy elements, its primary significance is in scientific research, offering insights into atomic structures and behaviors at the table's extremes.",
+        "atomic_number": 105
+    },
+    "seaborgium": {
+        "text": "Seaborgium, honoring Glenn T. Seaborg, is a synthetic element with no commercial application. Like other transactinides, it's significant in research. Its short half-life and the challenges in its production make it a subject of intrigue in the study of superheavy elements.",
+        "atomic_number": 106
+    },
+    "bohrium": {
+        "text": "Bohrium, named in honor of Niels Bohr, is another synthetic element without substantial commercial applications. Its production and study are purely of academic interest, deepening the scientific community's understanding of the heavy elements at the periodic table's fringes.",
+        "atomic_number": 107
+    },
+    "hassium": {
+        "text": "Hassium, named after the German state of Hesse, is synthetic and highly radioactive. It's created in particle accelerators and has no commercial uses. As one of the superheavy elements, its study provides insights into atomic behavior and properties in extreme conditions.",
+        "atomic_number": 108
+    },
+    "meitnerium": {
+        "text": "Meitnerium, honoring Lise Meitner, is a synthetic element with no known applications outside of scientific research. Its extremely short half-life and the complexities of its production make it a notable subject in the ongoing exploration of the periodic table's limits.",
+        "atomic_number": 109
+    },
+    "darmstadtium": {
+        "text": "Darmstadtium, named after the city of Darmstadt in Germany, is a synthetic, short-lived radioactive element with no commercial uses. Its significance lies in scientific research, expanding our knowledge of superheavy elements and their behavior under extreme conditions.",
+        "atomic_number": 110
+    },
+    "roentgenium": {
+        "text": "Roentgenium, named in honor of Wilhelm Conrad Röntgen, is a synthetic element known only from laboratory experiments. With no commercial applications and a short half-life, its study remains essential for understanding the nature of the most massive atoms known to humans.",
+        "atomic_number": 111
+    },
+    "copernicium": {
+        "text": "Copernicium, honoring Nicolaus Copernicus, is a synthetic radioactive element with no known uses outside the laboratory. Its extreme instability and short existence make it significant for research purposes, highlighting humanity's drive to understand the universe's elemental limits.",
+        "atomic_number": 112
+    },
+    "nihonium": {
+        "text": "Nihonium, named after the Japanese word for Japan, is a man-made radioactive element. It's only known from a few atoms produced in labs. With no practical applications, its study is vital for furthering the scientific understanding of the superheavy elements on the periodic table.",
+        "atomic_number": 113
+    },
+    "flerovium": {
+        "text": "Flerovium, named in tribute to the Flerov Laboratory of Nuclear Reactions in Russia, is a synthetic element. It's one of the superheavy elements and is known for its possible 'island of stability'. Its existence and study further human understanding of atomic structures at extreme limits.",
+        "atomic_number": 114
+    },
+    "moscovium": {
+        "text": "Moscovium, named after the Moscow region, is a highly radioactive synthetic element. It's only known from laboratory experiments. The intrigue of its study lies in the properties of superheavy elements and deepens our understanding of the complexities at the periodic table's fringes.",
+        "atomic_number": 115
+    },
+    "livermorium": {
+        "text": "Livermorium, named in honor of the Lawrence Livermore National Laboratory in California, is synthetic and extremely short-lived. It underscores the challenges and rewards of atomic research, particularly the synthesis and study of superheavy elements at the periodic table's edge.",
+        "atomic_number": 116
+    },
+    "tennessine": {
+        "text": "Tennessine, named after the U.S. state of Tennessee, is a synthetic element produced in minute amounts. As one of the heaviest known elements, its existence and study showcase the lengths to which science pushes to expand our elemental knowledge and explore atomic frontiers.",
+        "atomic_number": 117
+    },
+    "oganesson": {
+        "text": "Oganesson, named in honor of Russian physicist Yuri Oganessian, is the heaviest confirmed element. As a noble gas, it challenges our understanding of this group's properties due to its anticipated metallic nature, making it a significant subject in modern atomic research.",
+        "atomic_number": 118
+    }
+}

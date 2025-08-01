@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChemTree</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="selectedElement">Selected Element: <span>None</span> <span id="dash"> - </span><a href="#" target="_blank"
+            class="link">Wikipedia</a></div>
+
+    <div class="table">
+        <!-- Period 1 -->
+        <div class="element nonmetal" data-element="Hydrogen">H</div>
+        <div class="spacer"></div>
+        <div class="spacer"></div>
+        <div class="spacer legend-container">
+            <div class="legend-item alkali-metal"></div>
+            <span class="legend-text alkali-metal">Alkali Metals</span>
+        </div>
+        <div class="spacer"></div>
+
+        <div class="spacer"></div>
+        <div class="spacer legend-container">
+            <div class="legend-item alkaline-earth"></div>
+            <span class="legend-text alkaline-earth">Alkaline Earth Metals</span>
+        </div>
+        <div class="spacer"></div>
+
+        <div class="spacer"></div>
+
+        <div class="spacer legend-container">
+            <div class="legend-item transition-metal"></div>
+            <span class="legend-text transition-metal">Transition Metals</span>
+        </div>
+        <div class="spacer"></div>
+
+        <div class="spacer"></div>
+        <div class="spacer"></div>
+        <div class="spacer"></div>
+        <div class="spacer"></div>
+        <div class="spacer"></div>
+        <div class="spacer"></div>
+        <div class="element noble-gas" data-element="Helium">He</div>
+
+        <!-- Period 2 -->
+        <div class="element alkali-metal" data-element="Lithium">Li</div>
+        <div class="element alkaline-earth" data-element="Beryllium">Be</div>
+        <div class="spacer"></div>
+        <div class="spacer legend-container">
+            <div class="legend-item other-metal"></div>
+            <span class="legend-text other-metal">Other Metals</span>
+        </div>
+        <div class="spacer"></div>
+
+        <div class="spacer"></div>
+        <div class="spacer legend-container">
+            <div class="legend-item metalloid"></div>
+            <span class="legend-text metalloid">Metalloids</span>
+        </div>
+        <div class="spacer"></div>
+        <div class="spacer"></div>
+        <div class="spacer legend-container">
+            <div class="legend-item nonmetal"></div>
+            <span class="legend-text nonmetal">Nonmetals</span>
+        </div>
+
+        <div class="spacer"></div>
+        <div class="spacer"></div>
+
+        <div class="element metalloid" data-element="Boron">B</div>
+        <div class="element nonmetal" data-element="Carbon">C</div>
+        <div class="element nonmetal" data-element="Nitrogen">N</div>
+        <div class="element nonmetal" data-element="Oxygen">O</div>
+        <div class="element nonmetal" data-element="Fluorine">F</div>
+        <div class="element noble-gas" data-element="Neon">Ne</div>
+
+        <!-- Period 3 -->
+        <div class="element alkali-metal" data-element="Sodium">Na</div>
+        <div class="element alkaline-earth" data-element="Magnesium">Mg</div>
+        <div class="spacer"></div>
+        <div class="spacer legend-container">
+            <div class="legend-item noble-gas"></div>
+            <span class="legend-text noble-gas">Noble Gases</span>
+        </div>
+
+        <div class="spacer"></div>
+        <div class="spacer"></div>
+        <div class="spacer legend-container">
+            <div class="legend-item lanthanide"></div>
+            <span class="legend-text lanthanide">Lanthanides</span>
+        </div>
+        <div class="spacer"></div>
+        <div class="spacer"></div>
+        <div class="spacer legend-container">
+            <div class="legend-item actinide"></div>
+            <span class="legend-text actinide">Actinides</span>
+        </div>
+        <div class="spacer"></div>
+        <div class="spacer"></div>
+        <div class="element other-metal" data-element="Aluminum">Al</div>
+        <div class="element metalloid" data-element="Silicon">Si</div>
+        <div class="element nonmetal" data-element="Phosphorus">P</div>
+        <div class="element nonmetal" data-element="Sulfur">S</div>
+        <div class="element nonmetal" data-element="Chlorine">Cl</div>
+        <div class="element noble-gas" data-element="Argon">Ar</div>
+
+        <!-- Period 4 -->
+        <div class="element alkali-metal" data-element="Potassium">K</div>
+        <div class="element alkaline-earth" data-element="Calcium">Ca</div>
+        <div class="element transition-metal" data-element="Scandium">Sc</div>
+        <div class="element transition-metal" data-element="Titanium">Ti</div>
+        <div class="element transition-metal" data-element="Vanadium">V</div>
+        <div class="element transition-metal" data-element="Chromium">Cr</div>
+        <div class="element transition-metal" data-element="Manganese">Mn</div>
+        <div class="element transition-metal" data-element="Iron">Fe</div>
+        <div class="element transition-metal" data-element="Cobalt">Co</div>
+        <div class="element transition-metal" data-element="Nickel">Ni</div>
+        <div class="element transition-metal" data-element="Copper">Cu</div>
+        <div class="element transition-metal" data-element="Zinc">Zn</div>
+        <div class="element other-metal" data-element="Gallium">Ga</div>
+        <div class="element metalloid" data-element="Germanium">Ge</div>
+        <div class="element metalloid" data-element="Arsenic">As</div>
+        <div class="element nonmetal" data-element="Selenium">Se</div>
+        <div class="element nonmetal" data-element="Bromine">Br</div>
+        <div class="element noble-gas" data-element="Krypton">Kr</div>
+
+        <!-- Period 5 -->
+        <div class="element alkali-metal" data-element="Rubidium">Rb</div>
+        <div class="element alkaline-earth" data-element="Strontium">Sr</div>
+        <div class="element transition-metal" data-element="Yttrium">Y</div>
+        <div class="element transition-metal" data-element="Zirconium">Zr</div>
+        <div class="element transition-metal" data-element="Niobium">Nb</div>
+        <div class="element transition-metal" data-element="Molybdenum">Mo</div>
+        <div class="element transition-metal" data-element="Technetium">Tc</div>
+        <div class="element transition-metal" data-element="Ruthenium">Ru</div>
+        <div class="element transition-metal" data-element="Rhodium">Rh</div>
+        <div class="element transition-metal" data-element="Palladium">Pd</div>
+        <div class="element transition-metal" data-element="Silver">Ag</div>
+        <div class="element transition-metal" data-element="Cadmium">Cd</div>
+        <div class="element other-metal" data-element="Indium">In</div>
+        <div class="element other-metal" data-element="Tin">Sn</div>
+        <div class="element metalloid" data-element="Antimony">Sb</div>
+        <div class="element metalloid" data-element="Tellurium">Te</div>
+        <div class="element nonmetal" data-element="Iodine">I</div>
+        <div class="element noble-gas" data-element="Xenon">Xe</div>
+
+        <!-- Period 6 -->
+        <div class="element alkali-metal" data-element="Caesium">Cs</div>
+        <div class="element alkaline-earth" data-element="Barium">Ba</div>
+        <div class="spacer">*</div>
+        <div class="element transition-metal" data-element="Hafnium">Hf</div>
+        <div class="element transition-metal" data-element="Tantalum">Ta</div>
+        <div class="element transition-metal" data-element="Tungsten">W</div>
+        <div class="element transition-metal" data-element="Rhenium">Re</div>
+        <div class="element transition-metal" data-element="Osmium">Os</div>
+        <div class="element transition-metal" data-element="Iridium">Ir</div>
+        <div class="element transition-metal" data-element="Platinum">Pt</div>
+        <div class="element transition-metal" data-element="Gold">Au</div>
+        <div class="element transition-metal" data-element="Mercury">Hg</div>
+        <div class="element other-metal" data-element="Thallium">Tl</div>
+        <div class="element other-metal" data-element="Lead">Pb</div>
+        <div class="element other-metal" data-element="Bismuth">Bi</div>
+        <div class="element other-metal" data-element="Polonium">Po</div>
+        <div class="element other-metal" data-element="Astatine">At</div>
+        <div class="element noble-gas" data-element="Radon">Rn</div>
+
+
+        <!-- Period 7 -->
+        <div class="element alkali-metal" data-element="Francium">Fr</div>
+        <div class="element alkaline-earth" data-element="Radium">Ra</div>
+        <div class="spacer">**</div>
+        <div class="element transition-metal" data-element="Rutherfordium">Rf</div>
+        <div class="element transition-metal" data-element="Dubnium">Db</div>
+        <div class="element transition-metal" data-element="Seaborgium">Sg</div>
+        <div class="element transition-metal" data-element="Bohrium">Bh</div>
+        <div class="element transition-metal" data-element="Hassium">Hs</div>
+        <div class="element" data-element="Meitnerium">Mt</div>
+        <div class="element" data-element="Darmstadtium">Ds</div>
+        <div class="element" data-element="Roentgenium">Rg</div>
+        <div class="element" data-element="Copernicium">Cn</div>
+        <div class="element" data-element="Nihonium">Nh</div>
+        <div class="element" data-element="Flerovium">Fl</div>
+        <div class="element" data-element="Moscovium">Mc</div>
+        <div class="element" data-element="Livermorium">Lv</div>
+        <div class="element" data-element="Tennessine">Ts</div>
+        <div class="element" data-element="Oganesson">Og</div>
+
+
+        <div class="vertical-spacer"></div>
+        <div class="vertical-spacer"></div>
+
+
+
+        <!-- Extras! -->
+        <div class="spacer"></div>
+        <div class="spacer"></div>
+        <div class="spacer">*</div>
+        <div class="element lanthanide" data-element="Lanthanum">La</div>
+        <div class="element lanthanide" data-element="Cerium">Ce</div>
+        <div class="element lanthanide" data-element="Praseodymium">Pr</div>
+        <div class="element lanthanide" data-element="Neodymium">Nd</div>
+        <div class="element lanthanide" data-element="Promethium">Pm</div>
+        <div class="element lanthanide" data-element="Samarium">Sm</div>
+        <div class="element lanthanide" data-element="Europium">Eu</div>
+        <div class="element lanthanide" data-element="Gadolinium">Gd</div>
+        <div class="element lanthanide" data-element="Terbium">Tb</div>
+        <div class="element lanthanide" data-element="Dysprosium">Dy</div>
+        <div class="element lanthanide" data-element="Holmium">Ho</div>
+        <div class="element lanthanide" data-element="Erbium">Er</div>
+        <div class="element lanthanide" data-element="Thulium">Tm</div>
+        <div class="element lanthanide" data-element="Ytterbium">Yb</div>
+        <div class="element lanthanide" data-element="Lutetium">Lu</div>
+
+
+
+        <div class="spacer"></div>
+        <div class="spacer"></div>
+        <div class="spacer">**</div>
+        <div class="element actinide" data-element="Actinium">Ac</div>
+        <div class="element actinide" data-element="Thorium">Th</div>
+        <div class="element actinide" data-element="Protactinium">Pa</div>
+        <div class="element actinide" data-element="Uranium">U</div>
+        <div class="element actinide" data-element="Neptunium">Np</div>
+        <div class="element actinide" data-element="Plutonium">Pu</div>
+        <div class="element actinide" data-element="Americium">Am</div>
+        <div class="element actinide" data-element="Curium">Cm</div>
+        <div class="element actinide" data-element="Berkelium">Bk</div>
+        <div class="element actinide" data-element="Californium">Cf</div>
+        <div class="element actinide" data-element="Einsteinium">Es</div>
+        <div class="element actinide" data-element="Fermium">Fm</div>
+        <div class="element actinide" data-element="Mendelevium">Md</div>
+        <div class="element actinide" data-element="Nobelium">No</div>
+        <div class="element actinide" data-element="Lawrencium">Lr</div>
+
+
+        <div class="vertical-spacer"></div>
+
+    </div>
+    <p style="margin-bottom:1em;"></p>
+
+    <div class="arrow bounce">
+
+    </div>
+    <p style="margin-bottom:3em;"></p>
+
+    <h1 id="textbox name"></h1>
+
+    <div id="textbox-div">
+        <div>
+            <div id="textbox atom">
+                <canvas id="atom canvas" width="270" height="270"></canvas>
+            </div>
+        </div>
+        <div id="textbox center">
+            <div>
+                <h2>Coming Soon</h2>
+
+            </div>
+            <div>
+                Compound Explorer Tree View
+            </div>
+        </div>
+        <div id="right-column">
+            <div id="textbox holder">
+                <div>
+                    <h2 style="padding: 0px; margin: 0px;">Facts</h2>
+                </div>
+                <div id="textbox text">
+                </div>
+            </div>
+            <div id="textbox sub">
+                <div>
+                    <h2>Coming Soon</h2>
+
+                </div>
+                <div>
+                    Physical Properties
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
